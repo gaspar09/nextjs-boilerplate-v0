@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-[#ff0000] text-white gap-2 hover:bg-[#cc0000] dark:hover:bg-[#ff3333] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-purple-600 text-white gap-2 hover:bg-purple-700 dark:hover:bg-purple-500 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,7 +27,7 @@ export default function Home() {
             Deploy now
           </a>
           <a
-            className="rounded-full border border-solid border-[#ff0000] dark:border-[#ff3333] transition-colors flex items-center justify-center hover:bg-[#fff0f0] dark:hover:bg-[#1a0000] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
+            className="rounded-full border border-solid border-purple-600 dark:border-purple-500 transition-colors flex items-center justify-center hover:bg-purple-50 dark:hover:bg-purple-900/20 hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:text-[#ff0000] dark:hover:text-[#ff3333] hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:text-purple-600 dark:hover:text-purple-400 hover:underline hover:underline-offset-4"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function Home() {
           Learn
         </a>
         <a
-          className="flex items-center gap-2 hover:text-[#ff0000] dark:hover:text-[#ff3333] hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:text-purple-600 dark:hover:text-purple-400 hover:underline hover:underline-offset-4"
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function Home() {
           Examples
         </a>
         <a
-          className="flex items-center gap-2 hover:text-[#ff0000] dark:hover:text-[#ff3333] hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:text-purple-600 dark:hover:text-purple-400 hover:underline hover:underline-offset-4"
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
